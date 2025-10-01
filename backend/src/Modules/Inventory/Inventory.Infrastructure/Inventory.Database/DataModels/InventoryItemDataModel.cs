@@ -1,4 +1,4 @@
-﻿using Common.Database.DataModels;
+﻿using Inventory.Database.DataModels.Base;
 using System.Collections.ObjectModel;
 
 namespace Inventory.Database.DataModels;

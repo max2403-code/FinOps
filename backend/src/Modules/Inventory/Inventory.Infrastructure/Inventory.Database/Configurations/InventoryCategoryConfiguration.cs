@@ -1,4 +1,4 @@
-﻿using Common.Database.Configurations;
+﻿using Inventory.Database.Configurations.Base;
 using Inventory.Database.DataModels;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;

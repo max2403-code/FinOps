@@ -1,5 +1,10 @@
-﻿namespace Common.Database.Repositories;
+﻿namespace Inventory.Application.Abstractions.Repository;
 
+/// <summary>
+/// Базовый контракт CRUD интерфейса. 
+/// </summary>
+/// <typeparam name="TDomain"></typeparam>
+/// <typeparam name="TDataModel"></typeparam>
 public interface IBaseRepository<TDomain, TDataModel>
 {
     /// <summary>

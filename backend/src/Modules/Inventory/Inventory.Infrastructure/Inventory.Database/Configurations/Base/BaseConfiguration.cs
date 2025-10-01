@@ -1,8 +1,8 @@
-﻿using Common.Database.DataModels;
+﻿using Inventory.Database.DataModels.Base;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Common.Database.Configurations;
+namespace Inventory.Database.Configurations.Base;
 
 public abstract class BaseConfiguration<TEntity> : IEntityTypeConfiguration<TEntity>
     where TEntity : BaseDataModel

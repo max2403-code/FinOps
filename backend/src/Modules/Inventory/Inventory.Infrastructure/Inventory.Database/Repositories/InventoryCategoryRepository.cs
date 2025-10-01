@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
-using Common.Database.Repositories;
 using Inventory.Database.Context;
 using Inventory.Database.DataModels;
+using Inventory.Database.Repositories.Base;
 using Inventory.Domain;
 using Microsoft.EntityFrameworkCore;
 

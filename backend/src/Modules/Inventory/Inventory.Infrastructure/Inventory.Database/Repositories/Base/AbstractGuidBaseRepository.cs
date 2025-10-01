@@ -1,7 +1,8 @@
-﻿using Common.Database.DataModels;
+﻿using Inventory.Application.Abstractions.Repository;
+using Inventory.Database.DataModels.Base;
 using Microsoft.EntityFrameworkCore;
 
-namespace Common.Database.Repositories;
+namespace Inventory.Database.Repositories.Base;
 
 /// <summary>
 /// Абстрактный класс с базовым CRUD функционалом для GuidBaseDataModel.

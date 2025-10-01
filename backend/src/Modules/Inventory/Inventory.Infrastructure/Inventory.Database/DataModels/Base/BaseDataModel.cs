@@ -1,4 +1,4 @@
-﻿namespace Common.Database.DataModels;
+﻿namespace Inventory.Database.DataModels.Base;
 
 public abstract class BaseDataModel
 {
